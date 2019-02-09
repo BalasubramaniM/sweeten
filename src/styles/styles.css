@@ -1,0 +1,77 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html,
+body {
+	background-color: #fff;
+	font-size: 1rem;
+	font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+	height: 100vh;
+	width: 100vw;
+}
+
+a {
+	text-decoration: none;
+}
+
+section {
+	padding: 1.5rem 3rem;
+}
+
+.container {
+	margin: 0 auto;
+	position: relative;
+}
+
+.subtitle {
+	color: var(--main-text-color);
+	font-size: 1.3rem;
+}
+
+.feeds {
+	margin-top: 1.5rem;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+}
+
+.feeds .feed {
+	margin: 12px;
+	height: 230px;
+	min-width: 0;
+}
+
+.pagination {
+	margin-left: 12px;
+	justify-content: center;
+	margin-top: 2rem;
+}
+
+.sort {
+	display: flex;
+	align-items: center;
+}
+
+.sort .flex-item {
+	margin-bottom: 0;
+	flex: 1;
+}
+
+.ReactTable .rt-th, .ReactTable .rt-td {
+	padding: 14px 10px;
+}
+
+.ReactTable .rt-thead .rt-th, .ReactTable .rt-thead .rt-td {
+	padding: 14px 10px;
+	text-align: left;
+	font-weight: 500;
+}
+
+.react-t {
+	margin-top: 1rem;
+}
+
+.feed-boxes {
+	margin-bottom: 2rem;
+}

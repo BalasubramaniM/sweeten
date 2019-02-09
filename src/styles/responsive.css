@@ -1,0 +1,63 @@
+/* 
+  ##Device = iMac etc.,
+  ##Screen = 1472px and above.
+*/
+
+@media (min-width: 1357px) {
+	/* For desktop: */
+	.container {
+		max-width: 1344px;
+		width: 1344px;
+	}
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1356px) {
+	.feeds {
+		grid-template-columns: repeat(2, 1fr);
+	}
+	.feeds .feed {
+		height: 450px;
+	}
+	.container .select-boxes div:last-child {
+		text-align: right;
+	}
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+	.feeds {
+		grid-template-columns: repeat(1, 1fr);
+	}
+	.container .select-boxes {
+		flex-direction: column;
+	}
+	.container .select-boxes div:first-child {
+		margin-bottom: 1.5rem;
+	}
+	.container .select-boxes div:last-child {
+		text-align: left;
+	}
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+	.feeds {
+		grid-template-columns: repeat(1, 1fr);
+	}
+	.feeds .feed {
+		height: 460px;
+	}
+}
