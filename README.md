@@ -41,14 +41,6 @@ Finally,
 npm start
 ```
 
-### Testing
-
-Run the following command in the root directory to test Sweeten app.
-
-```
-npm test
-```
-
 ## Getting Started
 
 Open [localhost:3000](http://localhost:3000) file in your browser and see how Sweeten app works.
