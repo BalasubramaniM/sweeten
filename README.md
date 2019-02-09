@@ -43,7 +43,7 @@ npm start
 
 ### Testing
 
-Run the following command in the root directory to test Peerlyst app.
+Run the following command in the root directory to test Sweeten app.
 
 ```
 npm test
