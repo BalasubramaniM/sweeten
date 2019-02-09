@@ -55,7 +55,7 @@ Open [localhost:3000](http://localhost:3000) file in your browser and see how Sw
 
 ## Demo
 
-Preview of the application can be found at [balsu.me/sweeten](http://balsu.me/sweeten).
+Preview of the application can be found at [balsu.me/sweeten](http://balsu.me/sweeten). (Note: Enable CORS in your browser before you check in live.)
 
 ## Authors
 
