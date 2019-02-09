@@ -22,20 +22,16 @@ Sweeten Challenge. This application was built using [create-react-app](https://g
 - [superagent-promise](https://www.npmjs.com/package/superagent-promise)
 - [bootstrap](https://www.npmjs.com/package/bootstrap)
 
-#### Dev Dependencies
-
-- [enzyme](https://www.npmjs.com/package/enzyme)
-
 ### Installing
 
 ```
-git clone git@github.com:BalasubramaniM/peerlyst.git
+git clone git@github.com:BalasubramaniM/sweeten.git
 ```
 
 And repeat
 
 ```
-cd peerlyst
+cd sweeten
 npm install
 ```
 
@@ -55,11 +51,11 @@ npm test
 
 ## Getting Started
 
-Open [localhost:3000](http://localhost:3000) file in your browser and see how Peerlyst app works.
+Open [localhost:3000](http://localhost:3000) file in your browser and see how Sweeten app works.
 
 ## Demo
 
-Preview of the application can be found at [balsu.me/peerlyst](http://balsu.me/peerlyst).
+Preview of the application can be found at [balsu.me/sweeten](http://balsu.me/sweeten).
 
 ## Authors
 
